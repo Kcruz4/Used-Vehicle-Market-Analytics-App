@@ -1,30 +1,38 @@
-P🚗 Proyecto: Análisis Interactivo de Vehículos Usados
-🧠 Descripción
+# 🚗 Used Vehicle Interactive Analysis
 
-Esta aplicación web, desarrollada con Streamlit, permite explorar y analizar un conjunto de datos de anuncios de venta de vehículos usados en EE. UU.
-Ofrece herramientas interactivas para visualizar la información de manera intuitiva y obtener insights clave sobre las características y precios de los vehículos.
+## 🧠 Project Description
 
-⚙️ Funcionalidades
-🔹 Visualización Interactiva
+This web application, built with **Streamlit**, enables users to explore and analyze a dataset of used vehicle listings in the United States. It provides interactive tools to visualize data intuitively and uncover key insights about vehicle characteristics and pricing.
 
-Histograma de la columna odometer, que permite analizar la distribución de las lecturas del odómetro (en millas).
+---
 
-Gráfico de dispersión que relaciona el precio del vehículo con la lectura del odómetro.
+## ⚙️ Features
 
-🔹 Interactividad
+### 🔹 Interactive Visualization
 
-Botones y controles dinámicos que permiten generar las visualizaciones en tiempo real.
+* **Histogram:** Displays the distribution of the `odometer` variable, helping analyze mileage patterns across vehicles.
+* **Scatter Plot:** Shows the relationship between vehicle price and mileage, allowing users to identify trends and anomalies.
 
-🔹 Gráficos Avanzados
+### 🔹 Interactivity
 
-Uso de Plotly Express para crear visualizaciones interactivas, dinámicas y personalizables.
+* Dynamic buttons and controls that allow users to generate visualizations in real time.
 
-🧰 Tecnologías Utilizadas
+### 🔹 Advanced Visualizations
 
-Python 3.8+ — Lenguaje principal de programación.
+* Built using **Plotly Express** to create interactive, dynamic, and customizable charts.
 
-Streamlit — Framework para construir aplicaciones web interactivas.
+---
 
-Pandas — Manipulación y análisis de datos.
+## 🎯 Business Impact
 
-Plotly Express — Visualización de datos interactiva.
+Designed to help users understand pricing trends and identify valuable opportunities in the used vehicle market through data-driven insights.
+
+---
+
+## 🧰 Tech Stack
+
+* **Language:** Python 3.8+
+* **Web Framework:** Streamlit
+* **Data Processing:** Pandas
+* **Visualization:** Plotly Express
+
