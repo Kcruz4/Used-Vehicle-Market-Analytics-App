@@ -1,57 +1,105 @@
-Proyecto: Análisis Interactivo de Vehículos Usados
+# 🚗 Used Vehicle Market Analytics Dashboard
 
-Descripción
+**Interactive Data Application | Data Visualization | Streamlit**
 
-Esta aplicación web, desarrollada con Streamlit, permite explorar y analizar un conjunto de datos de anuncios de venta de vehículos usados en EE.UU. Proporciona herramientas interactivas para visualizar los datos de manera intuitiva y obtener insights clave sobre las características de los vehículos en venta.
+---
 
-Funcionalidades
+## 📌 Project Overview
 
-Visualización Interactiva:
+This interactive web application, built with **Streamlit**, enables users to explore and analyze a dataset of used vehicle listings in the United States. It provides intuitive tools to visualize market data and uncover key insights related to vehicle pricing, mileage, and listing characteristics.
 
- histograma de la columna "odometer" para analizar la distribución de las lecturas del odómetro en millas.
+---
 
-Generacion de gráfico de dispersión que relaciona el precio del vehículo con las lecturas del odómetro.
+## 🎯 Project Objective
 
-Interactividad:
+* Explore pricing trends in the used vehicle market
+* Analyze the relationship between mileage and price
+* Provide an interactive tool for self-service analytics
+* Support data-driven decisions for buyers and sellers
 
-La aplicación incluye botones que permiten al usuario generar las visualizaciones de forma dinámica.
+---
 
-Gráficos Avanzados:
+## 🚀 Key Features
 
-Utiliza Plotly Express para generar gráficos interactivos y personalizables.
+### 📊 Interactive Visualizations
 
-Tecnologías Utilizadas
+* **Mileage Distribution Histogram:** Analyze the distribution of vehicle mileage (`odometer`) in miles.
+* **Price vs Mileage Scatter Plot:** Explore the relationship between vehicle price and mileage to identify trends and anomalies.
 
-Python: Lenguaje principal de programación.
+### ⚡ Dynamic Interactivity
 
-Streamlit: Framework para construir aplicaciones web interactivas.
+* User-friendly buttons and controls to generate charts in real time.
+* On-demand visualizations for a smoother user experience.
 
-Pandas: Biblioteca para la manipulación y análisis de datos.
+### 📈 Advanced Charts
 
-Plotly Express: Herramienta para la visualización de datos.
+* Built with **Plotly Express** to create interactive, responsive, and customizable visualizations.
 
-Cómo Ejecutar la Aplicación
+---
 
-Clona el repositorio en tu máquina local.
+## 🎯 Business Impact
 
-Asegúrate de tener instalado Python 3.8 o superior.
+Designed to help users identify pricing patterns, evaluate vehicle value, and make smarter decisions in the used vehicle market through data-driven insights.
 
-Instala las dependencias ejecutando:
+---
 
+## 🌐 Live Application
+
+👉 https://aplicacionweb2.onrender.com/
+
+---
+
+## 🧰 Tech Stack
+
+* **Language:** Python
+* **Framework:** Streamlit
+* **Data Processing:** Pandas
+* **Visualization:** Plotly Express
+
+---
+
+## ▶️ How to Run Locally
+
+1. Clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+2. Install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
 
-Inicia la aplicación con:
+3. Run the application:
 
+```bash
 streamlit run app.py
+```
 
-Abre la URL generada en tu navegador (https://aplicacionweb2.onrender.com)
+4. Open the generated local URL in your browser.
 
-Dataset
+---
 
-El conjunto de datos utilizado es vehicles_us.csv, el cual contiene información sobre:
+## 📂 Dataset
 
-Precio del vehículo.
+The project uses `vehicles_us.csv`, which includes:
 
-Lectura del odómetro.
+* Vehicle price
+* Odometer mileage
+* Vehicle listing details
+* Additional market attributes
 
-Otros detalles del anuncio.
+---
+
+## 🎯 Business Value
+
+This project demonstrates the ability to build an end-to-end analytics application by combining data exploration, interactive visualization, and cloud deployment into a user-facing product.
+
+---
+
+## 📬 Contact
+
+Karen Cruz
+Data Scientist
