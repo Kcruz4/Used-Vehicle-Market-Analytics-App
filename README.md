@@ -1,21 +1,25 @@
 # 🚗 Used Vehicle Market Analytics Dashboard
 
-**Interactive Data Application | Data Visualization | Streamlit**
+Interactive Data Application | Streamlit | Data Visualization | Market Insights
 
 ---
 
 ## 📌 Project Overview
 
-This interactive web application, built with **Streamlit**, enables users to explore and analyze a dataset of used vehicle listings in the United States. It provides intuitive tools to visualize market data and uncover key insights related to vehicle pricing, mileage, and listing characteristics.
+This interactive web application was built with **Streamlit** to explore and analyze used vehicle listings across the United States.
+
+Users can investigate pricing behavior, mileage trends, and listing patterns through dynamic visualizations and interactive controls.
+
+The project demonstrates how data products can transform raw listings into actionable market intelligence.
 
 ---
 
-## 🎯 Project Objective
+## 🎯 Business Objective
 
-* Explore pricing trends in the used vehicle market
-* Analyze the relationship between mileage and price
-* Provide an interactive tool for self-service analytics
-* Support data-driven decisions for buyers and sellers
+- Analyze pricing trends in the used vehicle market  
+- Understand the relationship between mileage and price  
+- Enable self-service analytics through an intuitive dashboard  
+- Support smarter decisions for buyers, sellers, and analysts  
 
 ---
 
@@ -23,84 +27,48 @@ This interactive web application, built with **Streamlit**, enables users to exp
 
 ### 📊 Interactive Visualizations
 
-* **Mileage Distribution Histogram:** Analyze the distribution of vehicle mileage (`odometer`) in miles.
-* **Price vs Mileage Scatter Plot:** Explore the relationship between vehicle price and mileage to identify trends and anomalies.
+- **Mileage Distribution Histogram**  
+  Explore the distribution of vehicle mileage across listings.
 
-### ⚡ Dynamic Interactivity
+- **Price vs Mileage Scatter Plot**  
+  Identify correlations, pricing trends, and outliers.
 
-* User-friendly buttons and controls to generate charts in real time.
-* On-demand visualizations for a smoother user experience.
-
-### 📈 Advanced Charts
-
-* Built with **Plotly Express** to create interactive, responsive, and customizable visualizations.
+- **Real-Time Filtering**  
+  Update charts dynamically using user inputs.
 
 ---
 
-## 🎯 Business Impact
+## 📈 Business Impact
 
-Designed to help users identify pricing patterns, evaluate vehicle value, and make smarter decisions in the used vehicle market through data-driven insights.
+This dashboard helps users:
+
+- Detect pricing opportunities  
+- Compare market value by mileage levels  
+- Identify anomalies in listings  
+- Improve decision-making with data-driven insights  
 
 ---
 
 ## 🌐 Live Application
 
-👉 Live Demo: Vehicle Data Explorer
+👉 **Live Demo:**  
 https://aplicacionweb2.onrender.com
 
 ---
 
 ## 🧰 Tech Stack
 
-* **Language:** Python
-* **Framework:** Streamlit
-* **Data Processing:** Pandas
-* **Visualization:** Plotly Express
+- **Python**
+- **Streamlit**
+- **Pandas**
+- **Plotly Express**
 
 ---
 
-## ▶️ How to Run Locally
-
-1. Clone the repository:
+## ▶️ Run Locally
 
 ```bash
-git clone <repository-url>
-```
-
-2. Install dependencies:
-
-```bash
+git clone https://github.com/Kcruz4/Used-Vehicle-Market-Analytics-App.git
+cd Used-Vehicle-Market-Analytics-App
 pip install -r requirements.txt
-```
-
-3. Run the application:
-
-```bash
 streamlit run app.py
-```
-
-4. Open the generated local URL in your browser.
-
----
-
-## 📂 Dataset
-
-The project uses `vehicles_us.csv`, which includes:
-
-* Vehicle price
-* Odometer mileage
-* Vehicle listing details
-* Additional market attributes
-
----
-
-## 🎯 Business Value
-
-This project demonstrates the ability to build an end-to-end analytics application by combining data exploration, interactive visualization, and cloud deployment into a user-facing product.
-
----
-
-## 📬 Contact
-
-Karen Cruz
-Data Scientist
